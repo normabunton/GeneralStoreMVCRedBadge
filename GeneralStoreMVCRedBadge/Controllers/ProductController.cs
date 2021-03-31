@@ -1,7 +1,9 @@
 ﻿using GeneralStoreMVCRedBadge.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Web.Mvc;
 
@@ -9,27 +11,23 @@ namespace GeneralStoreMVCRedBadge.Controllers
 {
     public class ProductController : Controller
     {
-
         //Add the application DB Context (link to tge database)
-
         private ApplicationDbContext _db = new ApplicationDbContext();
-
         // GET: Product
         public ActionResult Index()
+
         {
+            List<Product> productList = _db.Products.ToList();
+            List<Product> orderedList = productList.OrderBy(prod => prod.Name).ToList();
             //(modifying the ApplicaitonDbContext class)
-            return View(_db.Products.ToList());
+            return View(orderedList);
         }
-
-
-        //GET: Restaurant/Create
-        
+        //GET: Product/Create        
         public ActionResult Create()
         {
             return View();
         }
-
-        //POST: Restaurant/Create
+        //POST: Product/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(Product product)
@@ -45,17 +43,57 @@ namespace GeneralStoreMVCRedBadge.Controllers
 
         //GET:DELETE
         //Product/Delete/{id}
-        public ActionResult Delete(int? id)
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int id)
         {
-            if(id== null)
+            Product product = _db.Products.Find(id);
+            _db.Products.Remove(product);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        //Get: Restaurant/Edit/{id}
+        public ActionResult Edit(int? id)
+        {
+            if(id == null)
             {
-                return new HttpStatusCodeResult(System.Net.HttpStatusCode.BadRequest);
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
             Product product = _db.Products.Find(id);
-            if(product == null)
+            if (product == null)
             {
                 return HttpNotFound();
             }
+            return View(product);
+        }
+        // POST : Edit// Product/Edit/{id}
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Entry(product).State = EntityState.Modified;
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(product);
+        }
+        // GET : Details
+        // Product/Details/{id}
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = _db.Products.Find(id);
+
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+
             return View(product);
         }
     }

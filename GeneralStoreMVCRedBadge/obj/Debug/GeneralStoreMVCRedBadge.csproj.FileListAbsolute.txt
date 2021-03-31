@@ -1,4 +1,3 @@
-C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.csproj.CoreCompileInputs.cache
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\GeneralStoreMVCRedBadge.dll.config
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\GeneralStoreMVCRedBadge.dll
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\GeneralStoreMVCRedBadge.pdb
@@ -78,6 +77,8 @@ C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralSt
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.WebPages.dll
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.WebPages.Razor.dll
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\WebGrease.dll
+C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\EntityFramework.xml
+C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\EntityFramework.SqlServer.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.Helpers.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.Mvc.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.Optimization.xml
@@ -87,8 +88,6 @@ C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralSt
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\System.Web.WebPages.Razor.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Newtonsoft.Json.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Antlr3.Runtime.pdb
-C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\EntityFramework.xml
-C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\EntityFramework.SqlServer.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.AspNet.Identity.Core.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.AspNet.Identity.EntityFramework.xml
@@ -102,7 +101,7 @@ C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralSt
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.csproj.CoreCompileInputs.cache
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.csproj.CopyComplete
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.dll
 C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.pdb
-C:\Users\te_nj\OneDrive\Desktop\EFA Projects C# Visual Studio\RedBadge\GeneralStoreMVCRedBadge\GeneralStoreMVCRedBadge\obj\Debug\GeneralStoreMVCRedBadge.csprojAssemblyReference.cache
