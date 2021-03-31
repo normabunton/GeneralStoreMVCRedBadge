@@ -29,5 +29,6 @@ namespace GeneralStoreMVCRedBadge.Models
         {
             return new ApplicationDbContext();
         }
+        public DbSet<GeneralStoreMVCRedBadge.Models.Product> Products { get; set; }
     }
 }
